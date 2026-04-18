@@ -1,0 +1,8 @@
+*.gz
+*.parquet
+*.fai
+*.fa
+*.h5ad
+*.meme
+*.log
+*.csv

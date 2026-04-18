@@ -1,0 +1,15 @@
+[project]
+name = "gatac-notebooks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gatac[cuda12]",
+    "ipykernel>=7.2.0",
+    "ipywidgets>=8.1.8",
+    "rapids-singlecell-cu12[rapids]>=0.15.0rc5",
+]
+
+[tool.uv.sources]
+gatac = { path = "../GATAC", editable = true }
